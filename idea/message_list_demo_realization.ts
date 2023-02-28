@@ -74,3 +74,27 @@ class ChatWindow {
 
   }
 }
+
+
+// <template #dropdown>
+// <el-dropdown-menu>
+//   <!-- v-if="item.mute != 1 && item.username !== loginUserId && !item.owner && !isGroupAdmin(item.username) && !item.admin"  -->
+//   <el-dropdown-item 
+//     v-if="item.mute != 1 && item.username !== loginUserId" 
+//     @click="mute(item)">禁言</el-dropdown-item>
+//   <el-dropdown-item 
+//     v-if="item.mute == 1 && item.username !== loginUserId" 
+//     @click="delMute(item)">解除禁言</el-dropdown-item>
+//   <el-dropdown-item v-if="item.username !== loginUserInfo.username" @click="atMember(item)">@他（她）</el-dropdown-item>
+//   <el-dropdown-item @click="memberDetail(item)">查看详情</el-dropdown-item>
+//   <el-dropdown-item v-if="item.username !== loginUserInfo.username" @click="conversation(item)">发起会话</el-dropdown-item>
+//   <el-dropdown-item 
+//     v-if="item.mute != 1 && item.username !== loginUserId"
+//     @click="getOut(item)">移出群聊</el-dropdown-item>
+// </el-dropdown-menu>
+// <!-- <el-dropdown-menu v-else>
+//   <el-dropdown-item v-if="item.username !== loginUserInfo.username" @click="atMember(item)">@他（她）</el-dropdown-item>
+//   <el-dropdown-item @click="memberDetail(item)">查看详情</el-dropdown-item>
+//   <el-dropdown-item v-if="item.username !== loginUserInfo.username" @click="conversation(item)">发起会话</el-dropdown-item>
+// </el-dropdown-menu> -->
+// </template>
